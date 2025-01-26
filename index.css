@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+}
+table {
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    border-collapse: collapse;
+}
+td {
+    padding: 10px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="text"], input[type="password"], input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+}
+button{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 4vh; 
+    display: block;
+    margin: auto; 
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+}
